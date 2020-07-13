@@ -1,4 +1,3 @@
-n = input("Введите число \n")
-n = int(n)
-num= (n+ ((n*10)+n) + ((n*100)+(n*10)+n))
-print('Сумма чисел n + nn + nnn = %d' % num)
+n = int(input('Введите число \n'))
+total = (n + int(str(n) + str(n)) + int(str(n) + str(n)+ str(n)))
+print('Сумма чисел n + nn + nnn = ',  total)
